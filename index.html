@@ -30,8 +30,8 @@
 							<div class="header__block2">
 								<a class="header__logo header__link-logo"></a>
 								<div class="header__centerbuttons">
-									<button class="header__button button"><img src="./img/call.png" alt="" class="header__link-call"></button>
-									<button class="header__button button"><img src="./img/chat.png" alt="" class="header__link-chat"></button>
+									<button class="header__button button-call button"><img src="./img/call.png" alt="" class="header__link-call"></button>
+									<button class="header__button button-request button"><img src="./img/chat.png" alt="" class="header__link-chat"></button>
 									<button class="header__button button"><img src="./img/profile.png" alt="" class="header__link-profile"></button>
 								</div>
 							</div>
@@ -74,15 +74,15 @@
 									подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
 									рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
 								<div class="readmore">
-									<button class="main-block__button-overflow button">Читать далее</button>
+									<button class="main-block__button-overflow">Читать далее</button>
 								</div>
 							</div>
 
 						</div>
 						<picture class="main-block__img">
 							<source media="(min-width: 1px) and (max-width: 768px)" srcset="./img/mainphoto(320x230).png">
-							<source media="(min-width: 769px) and (max-width: 1120px)" srcset="./img/mainphoto(360x260).png">
-							<source media="(min-width: 1121px)" srcset="./img/mainphoto(532x383).png">
+							<source media="(min-width: 769px) and (max-width: 1360px)" srcset="./img/mainphoto(360x260).png">
+							<source media="(min-width: 1361px)" srcset="./img/mainphoto(532x383).png">
 							<img src="./img/mainphoto(320x230).png" class="main-block__photologo" alt="">
 						</picture>
 					</div>
@@ -320,48 +320,49 @@
 				<div>Информация, размещенная на данной странице, не является публичной офертой</div>
 			</footer>
 		</div>
-		<div class="full-container__menu hidden">
-			<div class="slide-menu slide-menu-little-view">
-
-				<header class="header-slide-menu">
-					<div class="header-slide-menu__icons">
-						<button class="header-slide-menu__icon-cross button"></button>
-						<a class="header-slide-menu__icon-logo button" href=""><img src="./img/Group.png" alt=""></a>
-						<button class="header-slide-menu__icon-search button"><img src="./img/checkstatus.png" alt=""></button>
-					</div>
-				</header>
-				<main class="content-container">
-					<nav class="content-container">
-						<ul class="menu-navigation">
-							<li><a href="" class="menu-navigation__repair href_active">Ремонт техники</a></li>
-							<li><a href="" class="menu-navigation__services">Услуги и Сервисы</a></li>
-							<li><a href="" class="menu-navigation__corporate">Корпоративным клиентам</a></li>
-							<li><a href="" class="menu-navigation__sellers-of-technology">Продавцам техники</a></li>
-							<li><a href="" class="menu-navigation__partners">Партнерам</a></li>
-							<li><a href="" class="menu-navigation__manufacturers">Производителям</a></li>
-							<li><a href="" class="menu-naviagtion__service-center">Наши сервисные центры</a></li>
-							<li><a href="" class="menu-navigation__contacts">Контакты</a></li>
-						</ul>
-					</nav>
-				</main>
-				<footer class="footer">
-					<div class="block-buttons">
-						<button class="block-buttons__button-call button"><img src="./img/call.png" alt=""></button>
-						<button class="block-buttons__button-chat button"><img src="./img/chat.png" alt=""></button>
-						<button class="block-buttons__button-profile button"><img src="./img/profile.png" alt=""></button>
-					</div>
-					<div class="block-mail-call-lang">
-						<a href="mailto:mail@cps.com" class="footer-href">mail@cps.com</a>
-						<a href="tel:88008908900" class="footer-href">8 800 890 8900</a>
-						<div class="block-mail-call-lang__langs">
-							<button class="footer-href footer-href_active">RU</button>
-							<button class="footer-href">EN</button>
-							<button class="footer-href">CH</button>
+		<div class="container-menu">
+			<div class="full-container__menu hidden">
+				<div class="slide-menu slide-menu-little-view">
+					<header class="header-slide-menu">
+						<div class="header-slide-menu__icons">
+							<button class="header-slide-menu__icon-cross button"></button>
+							<a class="header-slide-menu__icon-logo button" href=""><img src="./img/Group.png" alt=""></a>
+							<button class="header-slide-menu__icon-search button"><img src="./img/checkstatus.png" alt=""></button>
 						</div>
-					</div>
-				</footer>
-			</div>
-			<div class="friendly-fire-block">
+					</header>
+					<main class="content-container">
+						<nav class="content-container">
+							<ul class="menu-navigation">
+								<li><a href="" class="menu-navigation__repair href_active">Ремонт техники</a></li>
+								<li><a href="" class="menu-navigation__services">Услуги и Сервисы</a></li>
+								<li><a href="" class="menu-navigation__corporate">Корпоративным клиентам</a></li>
+								<li><a href="" class="menu-navigation__sellers-of-technology">Продавцам техники</a></li>
+								<li><a href="" class="menu-navigation__partners">Партнерам</a></li>
+								<li><a href="" class="menu-navigation__manufacturers">Производителям</a></li>
+								<li><a href="" class="menu-naviagtion__service-center">Наши сервисные центры</a></li>
+								<li><a href="" class="menu-navigation__contacts">Контакты</a></li>
+							</ul>
+						</nav>
+					</main>
+					<footer class="footer">
+						<div class="block-buttons">
+							<button class="block-buttons__button-call button-call button"><img src="./img/call.png" alt=""></button>
+							<button class="block-buttons__button-chat button-request button"><img src="./img/chat.png" alt=""></button>
+							<button class="block-buttons__button-profile button"><img src="./img/profile.png" alt=""></button>
+						</div>
+						<div class="block-mail-call-lang">
+							<a href="mailto:mail@cps.com" class="footer-href">mail@cps.com</a>
+							<a href="tel:88008908900" class="footer-href">8 800 890 8900</a>
+							<div class="block-mail-call-lang__langs">
+								<button class="footer-href footer-href_active">RU</button>
+								<button class="footer-href">EN</button>
+								<button class="footer-href">CH</button>
+							</div>
+						</div>
+					</footer>
+				</div>
+				<div class="friendly-fire-block">
+				</div>
 			</div>
 		</div>
 		<div class="full-container__request hidden request-hidden">

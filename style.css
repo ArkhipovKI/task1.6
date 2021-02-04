@@ -1553,7 +1553,6 @@ body {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
-    overflow-y: auto;
     min-height: 100%;
     flex-basis: 100%;
     display: flex;
@@ -1633,7 +1632,6 @@ body {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
-    overflow-y: auto;
     min-height: 100%; }
   input {
     width: 100%;
@@ -1685,7 +1683,7 @@ body {
   .text-form button {
     background: url(./static/cross.png);
     position: absolute;
-    transform: translateX(350px);
+    transform: translateX(-90px);
     z-index: 2;
     margin-right: auto;
     width: 40px;
@@ -1717,7 +1715,6 @@ body {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
-    overflow-y: auto;
     min-height: 100%; }
   input {
     width: 100%;
@@ -1769,7 +1766,7 @@ body {
   .text-form button {
     background: url(./static/cross.png);
     position: absolute;
-    transform: translateX(350px);
+    transform: translateX(-90px);
     z-index: 2;
     margin-right: auto;
     width: 40px;
@@ -1802,7 +1799,6 @@ body {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
-    overflow-y: auto;
     min-height: 100%;
     flex-basis: 100%;
     display: flex;
@@ -1882,7 +1878,6 @@ body {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
-    overflow-y: auto;
     min-height: 100%; }
   input {
     width: 100%;
@@ -1934,7 +1929,7 @@ body {
   .text-form button {
     background: url(./static/cross.png);
     position: absolute;
-    transform: translateX(350px);
+    transform: translateX(-90px);
     z-index: 2;
     margin-right: auto;
     width: 40px;
@@ -1966,7 +1961,6 @@ body {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
-    overflow-y: auto;
     min-height: 100%; }
   input {
     width: 100%;
@@ -2018,7 +2012,7 @@ body {
   .text-form button {
     background: url(./static/cross.png);
     position: absolute;
-    transform: translateX(350px);
+    transform: translateX(-90px);
     z-index: 2;
     margin-right: auto;
     width: 40px;

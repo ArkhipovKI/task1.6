@@ -2026,7 +2026,9 @@ body {
     opacity: 0.99; } }
 
 .full-container {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto; }
 
 .full-container-overflow-hidden {
   overflow-y: hidden; }

@@ -488,6 +488,9 @@ body {
 .price-slider button {
   cursor: pointer; }
 
+.price-slider ul li:hover {
+  transform: none; }
+
 .price-slider .companies-list-3__commercial-proposal:hover {
   color: #7e7e82; }
 

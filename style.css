@@ -92,7 +92,8 @@ body {
   display: inline-block;
   position: absolute;
   right: 10px;
-  top: 15px; }
+  top: 15px;
+  margin-right: 5px; }
 
 .companies-list__button {
   margin-right: auto; }
@@ -247,7 +248,6 @@ body {
   vertical-align: top; }
 
 .repair-tech-slider .companies-list__slide-2-content spun {
-  display: block;
   padding-left: 10px;
   padding-top: 20px; }
 
@@ -322,7 +322,8 @@ body {
   display: inline-block;
   position: absolute;
   bottom: 15px;
-  right: 10px; }
+  right: 10px;
+  margin-right: 5px; }
 
 .repair-tech-slider .companies-list__button-2 {
   margin-right: auto; }
@@ -357,6 +358,17 @@ body {
   position: absolute;
   left: -20px; }
 
+.repair-tech-slider .companies-list__wrapper-2 li:hover {
+  transform: scale(1.05);
+  transition: all 0.5s; }
+
+.repair-tech-slider a:hover {
+  transform: none; }
+
+.repair-tech-slider li a {
+  display: block;
+  width: 100%; }
+
 @media screen and (min-width: 1px) and (max-width: 700px) {
   .repair-tech-slider .container {
     min-width: 320px; }
@@ -385,6 +397,10 @@ body {
 @media screen and (min-width: 701px) and (max-width: 1360px) {
   .repair-tech-slider .container {
     position: relative; }
+  .repair-tech-slider .companies-list__slide-2-content spun {
+    display: block;
+    padding-left: 10px;
+    padding-top: 20px; }
   .repair-tech-slider .swiper-wrapper {
     width: auto;
     padding-right: 24px; }
@@ -472,6 +488,9 @@ body {
 .price-slider button {
   cursor: pointer; }
 
+.price-slider .companies-list-3__commercial-proposal:hover {
+  color: #7e7e82; }
+
 .price-slider .companies-list-3__slide-content > div > div:first-child {
   display: block;
   font-size: 14px;
@@ -502,6 +521,9 @@ body {
   margin: 0;
   padding: 0;
   width: 100%; }
+
+.price-slider ul li {
+  display: block; }
 
 .price-slider .container {
   display: flex;
@@ -1300,7 +1322,6 @@ body {
       background: #ffffff;
       border-radius: 6px; }
     .full-container__main .main-block__column {
-      margin-top: -15px;
       height: 100%;
       width: 100%;
       display: flex;
@@ -2033,8 +2054,30 @@ body {
     height: 40px;
     opacity: 0.99; } }
 
+a:hover {
+  transform: scale(1.05);
+  color: red;
+  transition: all 0.5s; }
+
+.companies-list__slide {
+  display: block; }
+
+.footer-block > *:hover {
+  color: #FF3E79; }
+
+.header__button:hover, .button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s; }
+
+li:hover {
+  transform: scale(1.03);
+  transition: all 0.5s; }
+
+li a {
+  display: block;
+  height: 100%; }
+
 .full-container {
-  overflow-x: hidden;
   max-width: 1440px;
   margin: 0 auto; }
 
@@ -2145,6 +2188,8 @@ img {
   display: none; }
 
 @media screen and (min-width: 1px) and (max-width: 700px) {
+  .full-container__main .main-block__img {
+    width: 100%; }
   .container {
     display: none; }
   .hidden {
@@ -2175,6 +2220,10 @@ img {
     flex-basis: 100%; } }
 
 @media screen and (min-width: 701px) and (max-width: 1360px) {
+  .main-block__photologo {
+    width: 100%; }
+  .main-block__img {
+    flex-basis: 150%; }
   .hidden {
     display: none; }
   .full-container__menu.hidden {
@@ -2204,6 +2253,10 @@ img {
     flex: 1 1 auto; } }
 
 @media screen and (min-width: 1361px) {
+  .repair-tech-slider .companies-list__slide-2-content spun {
+    display: block; }
+  .full-container__main .main-block__nav-link {
+    margin-bottom: 0; }
   .slide-menu {
     min-height: 100%; }
   .full-container {

@@ -247,7 +247,7 @@ body {
 .repair-tech-slider img {
   vertical-align: top; }
 
-.repair-tech-slider .companies-list__slide-2-content spun {
+.repair-tech-slider .companies-list__slide-2-content div {
   padding-left: 10px;
   padding-top: 20px; }
 
@@ -397,7 +397,7 @@ body {
 @media screen and (min-width: 701px) and (max-width: 1360px) {
   .repair-tech-slider .container {
     position: relative; }
-  .repair-tech-slider .companies-list__slide-2-content spun {
+  .repair-tech-slider .companies-list__slide-2-content div {
     display: block;
     padding-left: 10px;
     padding-top: 20px; }
@@ -1433,7 +1433,7 @@ body {
 .full-container__menu .header-slide-menu__icon-logo {
   margin-right: auto; }
 
-.full-container__menu main.content-container {
+.full-container__menu div.content-container {
   flex: 0 1 auto;
   width: 100%;
   min-height: 600px; }
@@ -2058,6 +2058,13 @@ body {
     height: 40px;
     opacity: 0.99; } }
 
+.full-container__main-none {
+  overflow-y: none; }
+
+h2 {
+  font-weight: normal;
+  font-size: 16px; }
+
 input[type=submit] {
   cursor: pointer; }
 
@@ -2239,7 +2246,8 @@ img {
     left: 0;
     top: 0;
     z-index: 11;
-    background: rgba(255, 255, 255, 0.96); }
+    background: rgba(255, 255, 255, 0.96);
+    position: fixed; }
   .slide-menu {
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
@@ -2254,7 +2262,9 @@ img {
     flex: 1 1 auto; } }
 
 @media screen and (min-width: 1361px) {
-  .repair-tech-slider .companies-list__slide-2-content spun {
+  .full-container__main-none {
+    display: block; }
+  .repair-tech-slider .companies-list__slide-2-content div {
     display: block; }
   .full-container__main .main-block__nav-link {
     margin-bottom: 0; }

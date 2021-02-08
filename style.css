@@ -1434,8 +1434,9 @@ body {
   margin-right: auto; }
 
 .full-container__menu main.content-container {
-  flex: 1 1 auto;
-  width: 100%; }
+  flex: 0 1 auto;
+  width: 100%;
+  min-height: 600px; }
 
 .full-container__menu nav.content-container {
   padding: 26px 24px; }
@@ -2057,6 +2058,9 @@ body {
     height: 40px;
     opacity: 0.99; } }
 
+input[type=submit] {
+  cursor: pointer; }
+
 a:hover {
   transform: scale(1.05);
   color: red;
@@ -2082,7 +2086,9 @@ li a {
 
 .full-container {
   max-width: 1440px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-height: 100%;
+  height: auto !important; }
 
 .full-container-overflow-hidden {
   overflow-y: hidden; }
@@ -2176,10 +2182,6 @@ img {
   width: 100%;
   height: 100%; }
 
-.full-container {
-  width: 100%;
-  height: 100%; }
-
 .full-container__main {
   height: 100%;
   width: 100%; }
@@ -2203,14 +2205,11 @@ img {
     display: none; }
   .full-container__menu .footer > div {
     margin: 0 0 20px 0; }
-  .full-container {
-    height: auto; }
   .full-container__menu {
     display: flex;
     position: absolute;
     justify-content: space-between;
     width: 100%;
-    position: fixed;
     height: 100%;
     left: 0;
     overflow-y: scroll;
@@ -2236,7 +2235,6 @@ img {
     justify-content: flex-start;
     height: 100%;
     width: 100%;
-    position: fixed;
     overflow-y: hidden;
     left: 0;
     top: 0;
@@ -2276,11 +2274,9 @@ img {
   .container-menu {
     position: relative;
     background-color: #ffffff;
-    height: 100%;
     flex-grow: 1;
     max-width: 320px; }
   .full-container__menu {
-    position: fixed;
     width: inherit;
     overflow-y: scroll; }
   .full-container__menu .header-slide-menu__icon-cross-btn {

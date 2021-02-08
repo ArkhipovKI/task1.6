@@ -628,7 +628,7 @@ body {
     content: url(./static/Group10.png);
     display: inline-block;
     position: absolute;
-    bottom: 15px;
+    bottom: 40px;
     right: 10px; } }
 
 @media screen and (min-width: 701px) and (max-width: 1360px) {
@@ -1289,7 +1289,7 @@ body {
       vertical-align: -40%;
       padding-right: 15px;
       font-weight: 500; }
-    .full-container__main .search__text {
+    .full-container__main .button__repair-text {
       display: inline-block;
       vertical-align: -40%;
       padding-right: 15px;
@@ -2058,6 +2058,9 @@ body {
     height: 40px;
     opacity: 0.99; } }
 
+.full-container {
+  overflow-x: hidden; }
+
 .full-container__main-none {
   overflow-y: none; }
 
@@ -2200,6 +2203,9 @@ img {
   display: none; }
 
 @media screen and (min-width: 1px) and (max-width: 700px) {
+  .price-slider .swiper-slide__content > .button__order::after {
+    right: 15px;
+    bottom: 10px; }
   .price-slider .block-main {
     margin-left: -25px; }
   .repair-tech-slider .companies-list__slide-2-content div {

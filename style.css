@@ -2200,6 +2200,8 @@ img {
   display: none; }
 
 @media screen and (min-width: 1px) and (max-width: 700px) {
+  .price-slider .block-main {
+    margin-left: -25px; }
   .repair-tech-slider .companies-list__slide-2-content div {
     display: inline; }
   .full-container__main .main-block__img {

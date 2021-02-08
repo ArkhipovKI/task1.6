@@ -2222,6 +2222,8 @@ img {
   display: none; }
 
 @media screen and (min-width: 1px) and (max-width: 700px) {
+  .full-container__menu div.content-container {
+    min-height: auto; }
   .price-slider .swiper-slide__content > .button__order::after {
     right: 0px;
     bottom: -20px; }

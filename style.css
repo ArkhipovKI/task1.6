@@ -323,7 +323,9 @@ body {
   position: absolute;
   bottom: 15px;
   right: 10px;
-  margin-right: 5px; }
+  height: 40px;
+  margin-right: 5px;
+  margin-top: auto; }
 
 .repair-tech-slider .companies-list__button-2 {
   margin-right: auto; }
@@ -810,12 +812,12 @@ body {
     margin: 0 16px;
     padding-bottom: 10px; }
   .footer-block > div {
-    padding: 2px;
+    padding: 2px 4px;
     flex-basis: 100%;
     text-align: center;
     font-size: 14px;
     color: #7e7e82;
-    margin: 10px 24px; } }
+    margin: 8px 0; } }
 
 @media screen and (min-width: 701px) and (max-width: 1360px) {
   .footer-block {
@@ -827,7 +829,6 @@ body {
     margin: 0 24px;
     padding-bottom: 35px; }
   .footer-block > div {
-    padding: 2px;
     text-align: center;
     font-size: 14px;
     color: #7e7e82;
@@ -848,7 +849,7 @@ body {
     align-items: flex-start;
     align-content: center;
     margin: 0 24px;
-    padding-bottom: 35px; }
+    padding-bottom: 21px; }
   .footer-block > div {
     padding: 2px;
     font-size: 14px;
@@ -859,7 +860,8 @@ body {
   .footer-block div:nth-child(2) {
     text-align: center; }
   .footer-block div:last-child {
-    text-align: end; } }
+    text-align: end;
+    min-width: 330px; } }
 
 .main-block__text-overflow-full {
   line-height: 18px;
@@ -940,7 +942,6 @@ body {
     .full-container__main .header__border-left {
       display: none; }
     .full-container__main .header__logo {
-      content: url(./static/Group.png);
       display: flex;
       justify-content: flex-start;
       margin-left: 0px;
@@ -1106,7 +1107,6 @@ body {
       top: 10px;
       margin-right: 10px; }
     .full-container__main .header__logo {
-      content: url(./static/Group.png);
       display: flex;
       justify-content: flex-start;
       margin-left: 0px;
@@ -2076,6 +2076,9 @@ body {
 
 .full-container__main-none {
   overflow-y: none; }
+
+a {
+  text-decoration: none; }
 
 h2 {
   font-weight: normal;

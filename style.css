@@ -2255,7 +2255,6 @@ img {
     width: 100%;
     height: 100%;
     left: 0;
-    overflow-y: scroll;
     top: 0;
     z-index: 11;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
@@ -2288,7 +2287,6 @@ img {
     justify-content: flex-start;
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
     left: 0;
     top: 0;
     z-index: 11;
@@ -2347,8 +2345,7 @@ img {
     flex-grow: 1;
     max-width: 320px; }
   .full-container__menu {
-    width: inherit;
-    overflow-y: scroll; }
+    width: inherit; }
   .full-container__menu .header-slide-menu__icon-cross-btn {
     display: none; }
   .request-menu .text-form button.hidden {

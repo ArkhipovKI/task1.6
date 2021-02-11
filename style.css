@@ -132,7 +132,7 @@ body {
   .swiper-wrapper__slide {
     margin-bottom: 10px;
     margin-right: 0; }
-  .swiper-slide {
+  .tech-list__slide-content .swiper-slide {
     min-width: 205px;
     position: relative;
     height: 72px;
@@ -374,7 +374,7 @@ body {
 
 @media screen and (min-width: 1px) and (max-width: 700px) {
   .repair-tech-slider .tech-list__slide-content .content {
-    display: inline; }
+    display: block; }
   .repair-tech-slider .swiper-wrapper__slide {
     margin-bottom: 10px;
     margin-right: 0; }
@@ -614,8 +614,6 @@ body {
     position: absolute; }
   .price-slider .price-list__slide-content > div:not(:first-child) > div:first-child {
     padding-top: 10px; }
-  .price-slider .price-list__slide-content > div > div:last-child {
-    padding-top: 5px; }
   .price-slider .price-list__slide {
     margin-bottom: 10px;
     margin-right: 0; }

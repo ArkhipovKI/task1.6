@@ -16,8 +16,8 @@
 <link href="style.css" rel="stylesheet"></head>
 
 <body>
-	<div class="full-container">
-		<div class="full-container__main">
+	<div class="full-container body__full-container">
+		<div class="full-container__main container-main">
 			<header>
 				<div class="header">
 					<div class="container">
@@ -68,25 +68,25 @@
 						</ul>
 					</nav>
 					<div class="main-block__column">
-						<div class="main-block__rows">
-							<div class="main-block__content">
+						<div class="main-block__rows rows-blocks">
+							<div class="main-block__content content-block">
 								<p class="main-block__text-overflow clip">Мы являемся авторизованным сервисным центром по
 									ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
 									гарантией производителя.<br>
 									<br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
 									подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
 									рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-								<div class="readmore">
+								<div class="content-block__readmore readmore">
 									<button class="main-block__button-overflow">Читать далее</button>
 								</div>
 							</div>
 
 						</div>
-						<picture class="main-block__img">
+						<picture class="main-block__img main-img">
 							<source media="(min-width: 1px) and (max-width: 768px)" srcset="./img/mainphoto(320x230).png">
 							<source media="(min-width: 769px) and (max-width: 1360px)" srcset="./img/mainphoto(360x260).png">
 							<source media="(min-width: 1361px)" srcset="./img/mainphoto(532x383).png">
-							<img src="./img/mainphoto(320x230).png" class="main-block__photologo" alt="">
+							<img src="./img/mainphoto(320x230).png" class="main-block__photologo photolog" alt="">
 						</picture>
 					</div>
 				</div>
@@ -317,10 +317,10 @@
 					</a>
 				</section>
 			</main>
-			<footer class="footer-block">
-				<div><a>© 2019 CPS<br> Разработано командой Apesong</a></div>
-				<div><a>Политика конфиденциальности</a></div>
-				<div><a>Информация, размещенная на данной странице, не является публичной офертой</a></div>
+			<footer class="footer-block container-main__footer">
+				<div class="footer-block__paragraph paragraph-developers"><a>© 2019 CPS<br> Разработано командой Apesong</a></div>
+				<div class="footer-block__paragraph paragraph-policy"><a>Политика конфиденциальности</a></div>
+				<div class="footer-block__paragraph paragraph-offer"><a>Информация, размещенная на данной странице, не является публичной офертой</a></div>
 			</footer>
 		</div>
 		<div class="container-menu">
@@ -368,10 +368,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="full-container__request hidden request-hidden">
+		<div class="full-container__request container-request hidden request-hidden">
 			<div class="wrapper-menu">
 			</div>
-			<div class="request-menu">
+			<div class="container-request__menu request-menu">
 				<div class="text-form">
 					<button class="button-icon-cross text-form__icon-cross button button-hidden"></button>
 					<div class="text-title text-form__title">Обратная связь</div>

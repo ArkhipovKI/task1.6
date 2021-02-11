@@ -245,9 +245,12 @@ body {
 .repair-tech-slider img {
   vertical-align: top; }
 
-.repair-tech-slider .tech-list__slide-content div {
+.repair-tech-slider .tech-list__slide-content .content {
   padding-left: 10px;
   padding-top: 20px; }
+
+.repair-tech-slider .content {
+  color: #1B1C21; }
 
 .repair-tech-slider ul {
   padding: 0;
@@ -370,7 +373,7 @@ body {
   width: 100%; }
 
 @media screen and (min-width: 1px) and (max-width: 700px) {
-  .repair-tech-slider .tech-list__slide-content div {
+  .repair-tech-slider .tech-list__slide-content .content {
     display: inline; }
   .repair-tech-slider .swiper-wrapper__slide {
     margin-bottom: 10px;
@@ -397,7 +400,7 @@ body {
 @media screen and (min-width: 701px) and (max-width: 1360px) {
   .repair-tech-slider .container {
     position: relative; }
-  .repair-tech-slider .tech-list__slide-content div {
+  .repair-tech-slider .tech-list__slide-content .content {
     display: block;
     padding-left: 10px;
     padding-top: 20px; }
@@ -490,13 +493,13 @@ body {
 .price-slider .price-slider__commercial-proposal:hover {
   color: #7e7e82; }
 
-.price-slider .price-list__slide-content > div > div:first-child {
+.price-slider .description-block {
   display: block;
   font-size: 14px;
   line-height: 16px;
   color: #7e7e82; }
 
-.price-slider .price-list__slide-content > div > div:last-child {
+.price-slider .commercial-proposal {
   font-size: 14px;
   line-height: 16px;
   color: #1b1c21; }

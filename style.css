@@ -1563,8 +1563,7 @@ body {
     flex: 0 1 auto;
     padding: 10px 24px 0 24px; }
   .full-container__menu .slide-menu {
-    flex-basis: 100%;
-    overflow-y: scroll; }
+    flex-basis: 100%; }
   .full-container__menu .block-mail-call-lang > a.telephone {
     font-size: 24px;
     font-weight: 700;
@@ -1651,7 +1650,6 @@ body {
   .wrapper-menu {
     display: none; }
   .request-menu {
-    overflow-y: scroll;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
@@ -1729,7 +1727,6 @@ body {
     height: 100%;
     flex-basis: 300%; }
   .request-menu {
-    overflow-y: scroll;
     min-width: 440px;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
@@ -1814,7 +1811,6 @@ body {
   .text-block__input {
     margin-bottom: 15px; }
   .request-menu {
-    overflow-y: scroll;
     min-width: 440px;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
@@ -1895,7 +1891,6 @@ body {
   .wrapper-menu {
     display: none; }
   .request-menu {
-    overflow-y: scroll;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
     z-index: 12;
@@ -1976,7 +1971,6 @@ body {
     height: 100%;
     flex-basis: 300%; }
   .request-menu {
-    overflow-y: scroll;
     min-width: 440px;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
@@ -2062,7 +2056,6 @@ body {
     height: 100%;
     flex-basis: 300%; }
   .request-menu {
-    overflow-y: scroll;
     min-width: 440px;
     -webkit-filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));
             filter: drop-shadow(16px 0 52px rgba(14, 24, 80, 0.2)) drop-shadow(-2px 0 4px rgba(69, 79, 126, 0.02));

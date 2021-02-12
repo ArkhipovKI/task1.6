@@ -1563,7 +1563,8 @@ body {
     flex: 0 1 auto;
     padding: 10px 24px 0 24px; }
   .full-container__menu .slide-menu {
-    flex-basis: 100%; }
+    flex-basis: 100%;
+    overflow-y: scroll; }
   .full-container__menu .block-mail-call-lang > a.telephone {
     font-size: 24px;
     font-weight: 700;
@@ -1626,7 +1627,8 @@ body {
   background-color: #ffffff; }
 
 .container-request__menu {
-  margin-left: auto; }
+  margin-left: auto;
+  overflow-y: auto; }
 
 .text-title {
   transform: translateX(8px); }
@@ -1871,7 +1873,8 @@ body {
 
 .request-menu {
   padding: 32px 24px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  overflow-y: auto; }
 
 .text-title {
   transform: translateX(8px); }
